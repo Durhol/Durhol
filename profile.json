@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "login": "Durhol",
+  "seed": "#CE9433",
+  "seedFromAvatar": true,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "streak",
+    "stats",
+    "projects",
+    "wave",
+    "buttons",
+    "stack"
+  ],
+  "hidden": [
+    "stack"
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "",
+    "subtitle": "Minecraft modder & hobbyist developer. Always building something. ",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      {
+        "icon": "brand:telegram",
+        "label": "@Durhol"
+      },
+      {
+        "icon": "code",
+        "label": "Python • Java • C++ • Kotlin • C#"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "Developer"
+      },
+      {
+        "icon": "code",
+        "label": "Mods & side projects"
+      },
+      {
+        "icon": "palette",
+        "label": "<3"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "brand:typescript",
+            "label": "TypeScript"
+          },
+          {
+            "icon": "brand:react",
+            "label": "React"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "Figma"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "pinned",
+    "repos": [
+      "tgbridge-client",
+      "minesweeper",
+      "psychosis"
+    ],
+    "overrides": {
+      "minesweeper": {
+        "text": "Retro Minesweeper brings the legendary classic Windows Minesweeper experience (Windows 95 / XP style) directly into Mine",
+        "icon": "trophy"
+      },
+      "psychosis": {
+        "text": "Psychosis is an analogue psycho-horror ambient overlay mod for Minecraft 1.21.11 (Fabric",
+        "shape": "cookie",
+        "icon": "ad"
+      },
+      "tgbridge-client": {
+        "shape": "sunny"
+      }
+    },
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/Durhol"
+      },
+      {
+        "icon": "sports_esports",
+        "url": "https://modrinth.com/user/Durhol"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "My website",
+        "url": "https://durhol.pp.ua",
+        "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "https://github.com/Durhol?tab=repositories",
+        "style": "tonal"
+      }
+    ]
+  }
+}
