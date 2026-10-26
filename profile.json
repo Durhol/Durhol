@@ -23,7 +23,7 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "",
-    "subtitle": "Minecraft modder & hobbyist developer. Always building something. ",
+    "subtitle": "Minecraft modder & hobbyist developer. Always building something.",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
@@ -47,10 +47,6 @@
       {
         "icon": "code",
         "label": "Mods & side projects"
-      },
-      {
-        "icon": "palette",
-        "label": "<3"
       }
     ]
   },
@@ -94,27 +90,15 @@
     ]
   },
   "projects": {
-    "source": "pinned",
+    "source": "manual",
     "repos": [
       "tgbridge-client",
       "minesweeper",
-      "psychosis"
+      "psychosis",
+      "tgbridge"
     ],
-    "overrides": {
-      "minesweeper": {
-        "text": "Retro Minesweeper brings the legendary classic Windows Minesweeper experience (Windows 95 / XP style) directly into Mine",
-        "icon": "trophy"
-      },
-      "psychosis": {
-        "text": "Psychosis is an analogue psycho-horror ambient overlay mod for Minecraft 1.21.11 (Fabric",
-        "shape": "cookie",
-        "icon": "ad"
-      },
-      "tgbridge-client": {
-        "shape": "sunny"
-      }
-    },
-    "empty": "No description yet.",
+    "overrides": {},
+    "empty": "?",
     "fork": "Fork"
   },
   "stats": {
@@ -141,7 +125,7 @@
         "url": "https://t.me/Durhol"
       },
       {
-        "icon": "sports_esports",
+        "icon": "brand:modrinth",
         "url": "https://modrinth.com/user/Durhol"
       }
     ],
@@ -154,15 +138,16 @@
       {
         "icon": "language",
         "label": "My website",
-        "url": "https://durhol.pp.ua",
+        "url": "https://Durhol.pp.ua",
         "style": "filled"
       },
       {
         "icon": "book_2",
         "label": "All repositories",
-        "url": "https://github.com/Durhol?tab=repositories",
+        "url": "",
         "style": "tonal"
       }
-    ]
+    ],
+    "card": true
   }
 }
